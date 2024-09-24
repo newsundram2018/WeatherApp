@@ -25,7 +25,6 @@ A mobile weather forecasting app built using **React Native**, **TypeScript**, *
 - **React Native**: Front-end mobile framework.
 - **TypeScript**: Type safety and better development practices.
 - **Redux**: State management for handling city search and weather data.
-- **React Native Chart Kit**: For displaying the temperature trend chart.
 - **OpenWeatherMap API**: Third-party API for fetching weather data.
 - **React Navigation**: Navigation between screens.
 
@@ -56,11 +55,10 @@ Ensure that you have the following tools installed:
    - Sign up at [OpenWeatherMap](https://openweathermap.org/) to get your API key.
    - Replace `your-api-key` in the API call within the codebase with your actual API key.
 
-4. Install additional dependencies:
-
-   ```bash
-   npm install react-native-chart-kit react-native-svg
-   ```
+4. Install broke dependencies:
+   - ```
+       npm install
+   - ```
 
 5. If you're running on iOS, navigate to the `ios` folder and install CocoaPods dependencies:
 
@@ -120,7 +118,7 @@ https://api.openweathermap.org/data/2.5/forecast?q={city name}&appid=your-api-ke
 
 ## License
 
-This project is licensed under the **MIT License**.
+This project is not licensed under the **MIT License**.
 
 ---
 
