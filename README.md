@@ -1,4 +1,4 @@
-Here’s a `README.md` file for your weather forecasting app. This file provides an overview of the project, installation instructions, features, and other relevant details.
+Here’s the updated `README.md` file with testing and chat functionality removed:
 
 ---
 
@@ -15,7 +15,6 @@ A mobile weather forecasting app built using **React Native**, **TypeScript**, *
 - Smooth navigation between screens using **React Navigation**.
 - **Redux** for state management.
 - **TypeScript** for type safety.
-- **Unit testing** with **Jest** and **React Native Testing Library**.
 
 ## Screenshots
 
@@ -29,7 +28,6 @@ A mobile weather forecasting app built using **React Native**, **TypeScript**, *
 - **React Native Chart Kit**: For displaying the temperature trend chart.
 - **OpenWeatherMap API**: Third-party API for fetching weather data.
 - **React Navigation**: Navigation between screens.
-- **Jest** and **React Native Testing Library**: Unit testing framework.
 
 ## Prerequisites
 
@@ -84,18 +82,6 @@ Ensure that you have the following tools installed:
 3. Click on "5-Day Forecast" to navigate to the forecast screen, where you can see temperature trends over the next 5 days in a line chart.
 4. Scroll down to see individual daily weather details.
 
-## Testing
-
-The app includes unit tests for key components and business logic.
-
-To run tests:
-
-```bash
-npm test
-```
-
-This will execute tests using **Jest** and generate a coverage report.
-
 ## Project Structure
 
 ```bash
@@ -107,7 +93,6 @@ This will execute tests using **Jest** and generate a coverage report.
 │   ├── redux             # Redux actions, reducers, and store
 │   ├── screens           # HomeScreen and ForecastScreen
 │   └── App.tsx           # Entry point of the app
-├── tests                 # Unit tests for the app
 ├── README.md             # Project documentation
 └── package.json          # Dependencies and scripts
 ```
@@ -147,4 +132,4 @@ This project is licensed under the **MIT License**.
 
 ---
 
-This `README.md` provides essential information for users or developers looking to understand and contribute to the project. Add screenshots in the relevant section to give users a preview of the app.
+This `README.md` provides all the necessary details without the testing and chat functionality.
